@@ -18,4 +18,9 @@ function createMarkupImg(item) {
     ""
   );
 }
+
+const clickOnConteinerItem = (evt) => {
+  evt.preventDefault();
+};
+
 console.log(galleryItems);
