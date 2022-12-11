@@ -14,8 +14,13 @@ function createMarkupImg(item) {
       </a>`,
     ""
   );
+  item.preventDefault();
 }
 
-const lightbox = new SimpleLightbox(".gallery a");
-
+const lightbox = new SimpleLightbox(".gallery a", {
+  captionsData: "alt",
+  captionPosition: "bottom",
+  captionDelay: 250,
+  showCounter: false,
+});
 console.log(galleryItems);

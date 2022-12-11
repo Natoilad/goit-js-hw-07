@@ -27,4 +27,5 @@ const clickOnConteinerItem = (evt) => {
   instance.show();
 };
 conteinerGallary.addEventListener("click", clickOnConteinerItem);
+
 console.log(galleryItems);
