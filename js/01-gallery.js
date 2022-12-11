@@ -27,5 +27,7 @@ const clickOnConteinerItem = (evt) => {
   instance.show();
 };
 conteinerGallary.addEventListener("click", clickOnConteinerItem);
+basicLightbox.addEventListener("click");
 
+basicLightbox.classList.remuve("active");
 console.log(galleryItems);
